@@ -17,5 +17,3 @@ Enzo : Fiche Produits
 Titouan : Page d'un produit
 <br>
 Zekeriya : Footer + navbar
-
-hello world
