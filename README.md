@@ -9,7 +9,11 @@ Notre groupe est composé d' Enzo BELLICAUD, Titouan THEREZIEN, Auban HELBAJ, Al
 Nous avons décidé de faire un site de ecommerce de matériel sportif.
 
 Alexandre : Page d'accueil
+<br>
 Auban : Panier
+<br>
 Enzo : Fiche Produits
+<br>
 Titouan : Page d'un produit
+<br>
 Zakariya : Footer + navbar
