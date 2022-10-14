@@ -6,4 +6,10 @@ https://www.figma.com/file/YS88fIlPDDfvdcwiBBas1w/Ecommerce-Wireframe?node-id=0%
 
 Notre groupe est composé d' Enzo BELLICAUD, Titouan THEREZIEN, Auban HELBAJ, Alexandre GARNIER, Zekeriya AKBURAK.
 
-Nous avons décidé de faire un site de ecommerce dans le domaine du matériel de sport. 
+Nous avons décidé de faire un site de ecommerce de matériel sportif.
+
+Alexandre : Page d'accueil
+Auban : Panier
+Enzo : Fiche Produits
+Titouan : Page d'un produit
+Zakariya : Footer + navbar
