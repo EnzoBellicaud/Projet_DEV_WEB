@@ -4,13 +4,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style/css/StylesTitou.css">
   <title>Page produit</title>
 </head>
 
 <body>
 
-
-
+    <div class="number-input">
+        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()" ></button>
+        <input class="quantity" min="0" max="5" name="quantity" value="1" type="number">
+        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus"></button>
+    </div>
 </body>
 
 </html>
