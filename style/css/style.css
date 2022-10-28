@@ -1,0 +1,30 @@
+.navbar {
+    border-bottom: 1px solid rgb(71, 71, 71);
+}
+
+.aligner{
+    display: flex;
+    flex-direction: row;
+}
+.aligner input{
+    padding-left: 10px;
+}
+.aligner button{
+    padding-right: 0;
+    border: 0;
+}
+.span_ {
+    margin-right:10px ;
+}
+.lien{
+    margin-right: 50px;
+}
+.shop {
+    display: flex !important;
+    flex-direction: row;
+    align-items: baseline;
+    margin-right: 20px;
+}
+.test{
+    width: 2000px;
+}
