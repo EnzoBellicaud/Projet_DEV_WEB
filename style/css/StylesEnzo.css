@@ -1,0 +1,121 @@
+.titre {
+  background-color: black;
+}
+
+.titre > h1{
+  color:aliceblue;
+}
+
+.titre > p{
+  color:aliceblue;
+  margin: 0px;
+  padding-bottom: 10px;
+}
+
+
+.side-bar {
+  width: 25%;
+  border-right: 1px solid black;
+  margin-right: 5px;
+}
+
+.top-side-bar {
+  align-items:baseline;
+  justify-content: space-evenly;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.couleurs {
+  flex-wrap: wrap;
+}
+
+.couleur {
+  width:20px;
+  height: 20px;
+  border-radius: 10% 30% 50% 70%;
+  border: 1px solid rgb(120, 120, 120);
+}
+
+.grille-card {
+  background-color: rgb(178, 178, 178);
+}
+
+.card {
+  background-color: rgb(83, 83, 83);
+  padding: 5px;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+.price {
+  font-style: italic;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.grille-card {
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.justify-space-evenly{
+  justify-content: space-evenly;
+}
+
+.tri {
+  margin: 15px;
+  text-align: center;
+  position: relative;
+}
+
+.posAbs {
+  position: absolute;
+  margin: 4px;
+  color:rgb(90, 90, 90)
+}
+
+.ordering {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5px;
+  padding-left: 30px;
+  text-align: right;
+}
+
+.align-left {
+  justify-content:end;
+}
+
+.bleu{
+  background-color: blue;
+}
+
+.jaune{
+  background-color: yellow;
+}
+
+.vert{
+  background-color: green;
+}
+
+.rouge{
+  background-color: red;
+}
+
+.noir{
+  background-color: black;
+}
