@@ -3,14 +3,23 @@ body{
     padding: 0;
     font-family:Arial, Helvetica, sans-serif  ;
 }
-hr{
-  margin: 0;
-  padding: 0;
-}
+
+
 .bold{
     font-weight: bolder;
 }
-.content{
+.nav-links a{
+  text-decoration: none;
+  display: block;
+  color: #000;
+  text-decoration: none;
+  padding: 15px 10px;
+
+}
+
+
+
+.navbar .nav-content{
   display: contents;
 }
 .navbar{
@@ -20,7 +29,8 @@ hr{
     background-color:white;
     border-bottom: 2px #bdbdbd solid;
 }
-button {
+
+.navbar button {
 	background: none;
 	border: none;
 	padding: 0;
@@ -28,7 +38,8 @@ button {
 	cursor: pointer;
 	outline: inherit;
 }
-.navbar_ul {
+
+.navbar ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -37,29 +48,43 @@ button {
     background-color: white;
   }
 
-nav li a{
-    display: block;
-    color: #000;
-    text-decoration: none;
-    padding: 15px 10px;
-  }
+
 .search_icon {
     color: #000;
     padding: 8px 8px;
     text-decoration: none;
 }
-li input{
+.navbar input{
     padding: 8px 0px;
+    border: none;
+
+  }
+  
+.navbar input:focus{
+    outline: none;
+}
+
+
+  
+footer button {
+	background: none;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+footer li input{
+    padding: 8px 0px;
+    border: none;
 
   }
 
-input{
-  border: none;
-}
-input:focus{
+
+
+footer input:focus{
     outline: none;
 }
-  
 
 .sign_footer{
   width: 422px;
