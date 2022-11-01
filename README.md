@@ -16,4 +16,4 @@ Enzo : Fiche Produits
 <br>
 Titouan : Page d'un produit
 <br>
-Zakariya : Footer + navbar
+Zekeriya : Footer + navbar
