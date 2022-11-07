@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
 body {
   margin:0px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .titre {
@@ -33,6 +36,26 @@ p {
   margin:0px;
 }
 
+img {
+  height:80%;
+}
+
+.description {
+  height: 20%;
+}
+
+.description > p {
+  font-size: 80%;
+  margin:0;
+  padding:0;
+}
+
+.description > h2 {
+  font-size: 120%;
+  margin:0;
+  padding:0;
+}
+
 .side-bar {
   width: 25%;
   border-right: 1px solid black;
@@ -42,6 +65,10 @@ p {
 .top-side-bar {
   align-items:baseline;
   justify-content: space-evenly;
+}
+
+.clear-link {
+  color : rgb(199, 179, 154);
 }
 
 ul {
@@ -61,15 +88,14 @@ ul {
 }
 
 .grille-card {
-  background-color: rgb(178, 178, 178);
 }
 
 .card {
-  background-color: rgb(83, 83, 83);
   padding: 5px;
-  width: 200px;
   height: 200px;
   margin: 20px;
+  background-color: rgb(188, 188, 188);
+  box-shadow: 4px 4px 1px 1px rgb(0, 0, 0);
 }
 
 .price {
@@ -120,7 +146,7 @@ ul {
   display: flex;
   flex-direction: row-reverse;
   padding: 5px;
-  padding-left: 62px;
+  padding-left: 72px;
   text-align: right;
   margin-bottom: 2px;
 }
