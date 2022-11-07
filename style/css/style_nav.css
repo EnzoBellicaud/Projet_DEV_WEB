@@ -180,6 +180,8 @@ body{
 .champ button{
   font-size: 15px;
   padding-right: 15px;
+  text-decoration: none;
+  color: #000;
 }
 .sign_footer button{
   padding-right: 15px;
@@ -265,7 +267,7 @@ body{
 @media screen and (max-width:520px) {
   .footer-content-section{
     flex-direction: column;
-    padding-left: 40%;
+    text-align: center;
   }
 }
 
