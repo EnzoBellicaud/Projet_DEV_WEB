@@ -77,7 +77,7 @@ function img1() {
             break;
         case 6 :
             i = 1;
-            document.getElementById("imgsrc").setAttribute("src","image/poids.jpg");
+            document.getElementById("imgsrc").setAttribute("src","image/Haltere4.jpg");
             document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
             break;
     }
