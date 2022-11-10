@@ -1,0 +1,57 @@
+button {
+    background-color: aliceblue;
+    
+  }
+
+  .titre{
+    display: flex;
+    border: 1px blue solid;
+    flex-direction: row;
+    margin-left: 20px;
+    align-content:space-between;
+  }
+
+  .container-flex{
+    display: flex;
+    border: 1px blue solid;
+    flex-direction: row;
+    margin-left: 20px;
+    align-content:space-between;
+
+  }
+
+  .produit{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .board{
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .item1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    border: 1px red solid;
+  }
+
+  .prixremove{
+    display: flex;
+    flex-direction: row;
+    border: 1px purple solid;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+.block{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 200px ;
+}
