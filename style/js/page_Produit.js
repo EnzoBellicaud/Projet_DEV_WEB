@@ -24,7 +24,32 @@ function Incrementation(n) {
 }
 
 
+var i =1;
 
+
+function img1() {
+    switch(i)
+    {
+        case 1 :
+            i = 2;
+            document.getElementById("imgsrc").setAttribute("src","image/elastique.jpg");
+            document.getElementById("imgsrc").setAttribute("class","imageProductHauteur");
+            break;
+        case 2 :
+            i = 3;
+            document.getElementById("imgsrc").setAttribute("src","image/gourdes.jpg");
+            document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
+            break;
+        case 3 :
+            i = 1;
+            document.getElementById("imgsrc").setAttribute("src","image/haltere1.jpg");
+            document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
+            break;
+
+    }
+
+
+}
 
 
 
