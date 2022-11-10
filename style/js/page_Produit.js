@@ -23,6 +23,26 @@ function Incrementation(n) {
     document.getElementById("valeur").innerText = compteur;
 }
 
+function incNumber() {
+    if (compteur < 10) {
+        compteur++;
+    } else if (compteur = 10) {
+        compteur = 10;
+    }
+    document.getElementById("valeur").innerText = compteur;
+}
+
+
+function decNumber() {
+    if (compteur > 0) {
+        --compteur;
+    } else if (compteur = 0) {
+        compteur = 10;
+    }
+    document.getElementById("valeur").innerText = compteur;
+}
+
+
 
 var i =1;
 
@@ -41,11 +61,25 @@ function img1() {
             document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
             break;
         case 3 :
-            i = 1;
+            i = 4;
             document.getElementById("imgsrc").setAttribute("src","image/haltere1.jpg");
             document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
             break;
-
+        case 4 :
+            i = 5;
+            document.getElementById("imgsrc").setAttribute("src","image/haltere2.png");
+            document.getElementById("imgsrc").setAttribute("class","imageProductHauteur");
+            break;
+        case 5 :
+            i = 6;
+            document.getElementById("imgsrc").setAttribute("src","image/haltere3.png");
+            document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
+            break;
+        case 6 :
+            i = 1;
+            document.getElementById("imgsrc").setAttribute("src","image/poids.jpg");
+            document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
+            break;
     }
 
 
