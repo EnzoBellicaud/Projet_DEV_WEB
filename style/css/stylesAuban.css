@@ -6,16 +6,13 @@ button {
   .titre{
     display: flex;
     border: 1px blue solid;
-    flex-direction: row;
-    margin-left: 20px;
-    align-content:space-between;
+    flex-direction: column;
   }
 
   .container-flex{
     display: flex;
     border: 1px blue solid;
     flex-direction: row;
-    margin-left: 20px;
     align-content:space-between;
 
   }
@@ -35,8 +32,8 @@ button {
   .item1{
     display: flex;
     flex-direction: row;
-    margin-left: 40px;
     border: 1px red solid;
+    justify-content: space-between;
   }
 
   .prixremove{
@@ -56,4 +53,22 @@ img{
   width: 200px ;
 }
 
-.resum{}
+.resum input{
+  width:70%;
+  height: 30px;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reduc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coloreduc{
+  color: gray;
+}
