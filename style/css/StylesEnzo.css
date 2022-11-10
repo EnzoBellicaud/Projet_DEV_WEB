@@ -46,7 +46,8 @@ body {
 .mobile-top-side-bar{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 5%;
 }
 
 .n2 {
@@ -75,7 +76,7 @@ body {
   }
 
   .side-bar {
-    width: 45%;
+    width: 50%;
     border-right: 1px solid black;
     margin-right: 5px;
     border-right: 1px solid black;
@@ -101,17 +102,22 @@ body {
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
-
+  h2 {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width:768px){
-
+  h2 {
+    margin-bottom: 0;
+  }
 }
 
 h3 {
   margin-top: 1%;
   padding-left: 5%;
 }
+
 
 p {
   margin:0;
