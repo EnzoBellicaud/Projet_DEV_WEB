@@ -1,14 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
-* {margin:0;padding:0;}
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: whitesmoke;
+
+}
+
+h1 {
+    font-size: 180%;
+    font-weight: 600;
+}
+
+h2 {
+
+    font-weight: 600;
+}
 
 .imageProductHauteur {
 
     display: block;
     z-index: 0;
-    
+
     height: 100%;
 
     width: auto;
+
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -24,94 +46,54 @@
 
 }
 
-body {
 
-    font-family: 'Montserrat', sans-serif;
-    background-color: whitesmoke;
 
+
+
+
+
+
+
+
+
+
+.PR{
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
-.boutonCarou{
-    position: absolute;
-    left: 42vw;
-    height: 3vw;
-    width: 3vw;
-   
-    
-    visibility: visible;
-
-    
-    
-    
-}
-
-
-
-
-
-.boutonCarouINV{
-    position: absolute;
-    left: 42vw;
-    height: 3vw;
-    width: 3vw;
-    
-
-    visibility: hidden;
-    
-    
-    
-    
-}
-
-.boutonCarouINV:hover
-{
-    visibility: visible;
-}
-
-
-
-
-
-
-
-h1 {
-    font-size: 180%;
-    font-weight: 600;
-}
-
-h2 {
-
-    font-weight: 600;
-}
 
 
 
 .item {
+    border: 2px black solid;
     display: flex;
-    appearance: none;
-    box-sizing: border-box;
-    width: 40%;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    border: 3px solid black;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
     cursor: pointer;
+    
+    
+
 }
-.item:hover{
+
+.plus:hover{
     background-color: black;
     color: white;
 }
 
 
 
-.liste{
+
+
+.liste {
     display: flex;
     justify-content: space-between;
     border: 1px solid greenyellow;
     width: 100%;
 
 
-}   
+}
 
 
 
@@ -146,7 +128,7 @@ h2 {
 
         border: 1px solid Red;
         display: flex;
-        
+
         flex-direction: column;
         align-items: stretch;
         justify-content: space-evenly;
@@ -155,7 +137,18 @@ h2 {
         height: 40vw;
 
     }
+
+    .boutonCarou {
+        position: absolute;
+        left: 42vw;
+        height: 3vw;
+        width: 3vw;
     
+        visibility: visible;
+    
+    }
+    
+
 
 }
 
@@ -197,6 +190,16 @@ h2 {
         height: 90vw;
 
 
+    }
+
+    .boutonCarou {
+        position: absolute;
+        left: 85vw;
+        height: 8vw;
+        width: 8vw;
+    
+        visibility: visible;
+    
     }
 
 
