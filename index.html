@@ -4,10 +4,68 @@
     <link rel="stylesheet" href="Style.css">
     <meta charset="utf-8">
     <title>WebSportif</title>
+    <style>
+
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .button {
+        background-color: #000000;
+        border: none;
+        color: white;
+        padding: 1% 3%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 100%;
+        margin: 2% 1%;
+        cursor: pointer;
+      }
+
+      img.displayed {
+       display: block;
+       width: 75%;
+       margin-left: 12%;
+      }
+
+      img.displayed1 {
+       display: block;
+       width: 35%;
+       margin-top: 3%;
+       margin-left: 50%;
+      }
+
+      </style>
   </head>
   <body>
+    
     <h1 style="text-align: center">Better clothing for the planet</h1>
+    
     <h1 style="text-align: center; opacity: 0.33">Bonjour</h1>
-    <a class="button" href="" ><strong>HELP</strong></a>
+    
+    <div class="container">
+      <button class="button" href="#">Button</button>
+    </div>
+   
+    <img class="displayed" src="image/outilssport.jpg" alt="image_sport">
+
+    <div class="container">
+      <a href="https://www.adidas.fr/football">
+        <img class="displayed1" src="image/adidas.png" alt="image_adidas">
+      </a>
+      <a href="https://www.foxsports.com">
+        <img class="displayed1" src="image/FOX.png" alt="image_fox">
+      </a>
+      <a href="https://www.go-sport.com/">
+        <img class="displayed1" src="image/GO_Sport_logo.png" alt="image_gosport">
+      </a>
+      <a href="https://www.basic-fit.com/fr-fr/home">
+        <img class="displayed1" src="image/basic.png" alt="image_basic">
+      </a>
+    </div>
+  
   </body>
 </html>
