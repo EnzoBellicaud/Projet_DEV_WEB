@@ -3,6 +3,10 @@ button {
     background-color: aliceblue;
 }
 
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
 body {
   margin:0px;
   font-family: 'Montserrat', sans-serif;
@@ -145,7 +149,11 @@ img{
     background-color: aliceblue;
     
   }
-    
+  
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+
   body {
   margin:0px;
   font-family: 'Montserrat', sans-serif;
@@ -287,6 +295,10 @@ img{
   button {
     background-color: aliceblue;
     
+  }
+
+  *{
+    font-family: 'Montserrat', sans-serif;
   }
     
   body {
