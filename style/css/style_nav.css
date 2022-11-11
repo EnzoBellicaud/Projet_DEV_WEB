@@ -118,7 +118,10 @@ body{
 
 
 
-  
+.footer * {
+	margin: revert;
+}
+
 .footer button {
 	background: none;
 	border: none;
