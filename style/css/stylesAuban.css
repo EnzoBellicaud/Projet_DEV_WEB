@@ -16,6 +16,9 @@ body {
     justify-content: right;
   }
 
+  .titre p{
+    padding-left: 20px;
+  }
   .container-flex{
     display: flex;
     flex-direction:row;
@@ -156,6 +159,10 @@ img{
     justify-content: right;
   }
 
+  .titre p{
+    padding-left: 20px;
+  }
+
   .container-flex{
     display: flex;
     flex-direction:row;
@@ -292,6 +299,10 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: right;
+  }
+
+  .titre p{
+    padding-left: 10px;
   }
 
   .container-flex{
