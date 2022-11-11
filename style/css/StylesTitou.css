@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -17,7 +20,7 @@ h1 {
 
 h2 {
 
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .imageProductHauteur {
@@ -72,6 +75,7 @@ h2 {
     background-color: white;
     color: black;
     cursor: pointer;
+    width: auto;
     
     
 
@@ -80,16 +84,27 @@ h2 {
 .plus:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
+
 }
 
 
+
+.plusb:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+
+}
 
 
 
 .liste {
     display: flex;
     justify-content: space-between;
-    border: 1px solid greenyellow;
+    align-items: center;
+    align-content: center;
+    border: 1px hidden greenyellow;
     width: 100%;
 
 
@@ -105,7 +120,7 @@ h2 {
 
     .container {
 
-        border: 1px solid blue;
+        border: 1px hidden blue;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -115,7 +130,7 @@ h2 {
 
     .box {
 
-        border: 1px solid Red;
+        border: 1px hidden Red;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -126,7 +141,7 @@ h2 {
 
     .box2 {
 
-        border: 1px solid Red;
+        border: 1px hidden Red;
         display: flex;
 
         flex-direction: column;
@@ -157,7 +172,7 @@ h2 {
 
     .container {
 
-        border: 1px solid blue;
+        border: 1px hidden blue;
         display: flex;
 
         flex-direction: column;
@@ -167,7 +182,7 @@ h2 {
     }
 
     .box {
-        border: 1px solid Red;
+        border: 1px hidden Red;
         display: flex;
 
         align-items: center;
@@ -179,7 +194,7 @@ h2 {
     }
 
     .box2 {
-        border: 1px solid Red;
+        border: 1px hidden Red;
         display: flex;
 
         flex-direction: column;
