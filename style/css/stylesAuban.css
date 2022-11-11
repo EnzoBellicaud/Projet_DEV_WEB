@@ -124,6 +124,9 @@ img{
   justify-content: space-between;
 }
 
+.hiddeninfo{
+  color: grey;
+}
 
 
   
@@ -255,6 +258,9 @@ img{
   align-items: baseline;
   justify-content: space-between;
 }
+.hiddeninfo{
+  color: grey;
+}
 
 }
 
@@ -384,5 +390,9 @@ img{
   flex-direction: row;
   align-items: baseline;
   justify-content: space-between;
+}
+
+.hiddeninfo{
+  color: grey;
 }
 } 
