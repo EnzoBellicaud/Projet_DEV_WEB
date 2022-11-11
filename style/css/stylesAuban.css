@@ -1,0 +1,398 @@
+@media screen and (min-width:1230px) {
+button {
+    background-color: aliceblue;
+    
+  }
+
+  .titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .container-flex{
+    display: flex;
+    flex-direction:row;
+    align-content:space-between;
+
+  }
+
+  .produit{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .board{
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .item1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .prixremove{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+  }
+
+.block{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 200px ;
+}
+.politique img{
+  width: 30px;
+}
+.Optionachat img{
+  height: 20px;
+  width: 20px;
+}
+
+.hidden img{
+  height: 20px;
+  width: 20px;
+}
+
+.Optionachat{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.resum input{
+  width:70%;
+  height: 30px;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reduc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coloreduc{
+  color: gray;
+}
+
+.board2{
+  text-align: center;
+}
+
+.bouton{
+  background-color: #000000;
+  color: white;
+  justify-content:center;
+  width: 70%;
+  height: 30px;
+  font-size: 16px; 
+   
+}
+
+.board3{
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+  margin-left: 20px;
+}
+
+.infos h2{
+  color:gray;
+}
+
+.hidden{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.hiddeninfo{
+  color: grey;
+}
+
+
+  
+}
+
+@media screen and (min-width:768px) and (max-width:1230px) {
+  button {
+    background-color: aliceblue;
+    
+  }
+
+  .titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .container-flex{
+    display: flex;
+    flex-direction:row;
+    align-content:space-between;
+
+  }
+
+  .produit{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .board{
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .prixremove{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+  }
+
+  .block{
+  display: flex;
+  flex-direction: column;
+  }
+
+  img{
+  width: 200px ;
+}
+.politique img{
+  width: 30px;
+}
+.Optionachat img{
+  height: 20px;
+  width: 20px;
+}
+
+.hidden img{
+  height: 20px;
+  width: 20px;
+}
+
+.Optionachat{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.resum input{
+  width:70%;
+  height: 30px;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reduc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coloreduc{
+  color: gray;
+}
+
+.board2{
+  display: flex;
+  text-align: center;
+}
+
+.bouton{
+  background-color: #000000;
+  color: white;
+  justify-content:center;
+  width: 70%;
+  height: 30px;
+  font-size: 16px; 
+   
+}
+
+.board3{
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+  margin-left: 20px;
+}
+
+.infos h2{
+  color:gray;
+}
+
+.hidden{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.hiddeninfo{
+  color: grey;
+}
+
+}
+
+@media screen and (max-width:768px){
+  button {
+    background-color: aliceblue;
+    
+  }
+
+  .titre{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+  .container-flex{
+    display: flex;
+    flex-direction:row;
+    align-content:space-between;
+
+  }
+
+  .produit{
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .board{
+    display: flex;
+    align-items: flex-start;
+
+  }
+
+  .item1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .prixremove{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: baseline;
+  }
+
+  .block{
+  display: flex;
+  flex-direction: column;
+  }
+
+  img{
+  width: 100px ;
+  height: 100px;
+  align-self: center;
+}
+.politique img{
+  width: 30px;
+}
+.Optionachat img{
+  height: 20px;
+  width: 20px;
+}
+
+.hidden img{
+  height: 20px;
+  width: 20px;
+}
+
+.Optionachat{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.resum input{
+  width:70%;
+  height: 30px;
+}
+
+.total{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.reduc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.coloreduc{
+  color: gray;
+}
+
+.board2{
+  text-align: center;
+}
+
+.bouton{
+  background-color: #000000;
+  color: white;
+  justify-content:center;
+  width: 70%;
+  height: 30px;
+  font-size: 16px; 
+   
+}
+
+.board3{
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+  margin-left: 20px;
+}
+
+.infos h2{
+  color:gray;
+}
+
+.hidden{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.hiddeninfo{
+  color: grey;
+}
+} 

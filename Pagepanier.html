@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/css/style_nav.css">
+    <link rel="stylesheet" href="style/css/stylesAuban.css">
+  
+
+    <title>Panier</title>
+</head>
+
+<!-- Navbar -->
+<nav class="navbar dark"> <!-- Mettre dark dans la class si la navbar doit etre noir -->
+  <div class="nav-div">      
+    <svg class="menu-burger" xmlns="http://www.w3.org/2000/svg" width="30" height="50" viewBox="0 0 30 30" fill="currentColor"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path></svg>
+    <a class="logo bold " href="#">Ecommerce</a>
+    <ul class="nav_ul_link ">  
+      <li class="nav-links"><a class="" href="#">Accueil</a></li>
+      <li class="nav-links"><a class="" href="#">Boutique</a></li>
+      <li class="nav-links"><a class="" href="#">À propos</a></li>
+      <li class="nav-search"> 
+          <button class="" type="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"  fill="currentColor" class="search_icon" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+          </button>
+      
+          <input class="input-search" type="text" placeholder="Recherche" aria-label="">
+      </li>
+    </ul>
+  </div>
+  <ul class="responsive-nav">
+    <li class="nav-links nav-content">
+      <a class="" href="#">
+        <svg class="" width="16" height="16" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 208.955 208.955" fill="currentColor" >
+        <path d="M190.85,200.227L178.135,58.626c-0.347-3.867-3.588-6.829-7.47-6.829h-26.221V39.971c0-22.04-17.93-39.971-39.969-39.971
+          C82.437,0,64.509,17.931,64.509,39.971v11.826H38.27c-3.882,0-7.123,2.962-7.47,6.829L18.035,200.784
+          c-0.188,2.098,0.514,4.177,1.935,5.731s3.43,2.439,5.535,2.439h157.926c0.006,0,0.014,0,0.02,0c4.143,0,7.5-3.358,7.5-7.5
+          C190.95,201.037,190.916,200.626,190.85,200.227z M79.509,39.971c0-13.769,11.2-24.971,24.967-24.971
+          c13.768,0,24.969,11.202,24.969,24.971v11.826H79.509V39.971z M33.709,193.955L45.127,66.797h19.382v13.412
+          c0,4.142,3.357,7.5,7.5,7.5c4.143,0,7.5-3.358,7.5-7.5V66.797h49.936v13.412c0,4.142,3.357,7.5,7.5,7.5c4.143,0,7.5-3.358,7.5-7.5
+          V66.797h19.364l11.418,127.158H33.709z"/>
+        </svg>2</a>
+    </li>
+    <li class="nav-login"><a class="" href="#">Se connecter</a></li>
+  </ul>
+      </nav>
+  <div class="vide"></div>
+
+  <!--Début de la page Panier-->
+
+
+  <div class="titre">
+    <h1>Votre Panier</h1><br>
+    <p>Prêt pour valider votre commande? Continuer vos achats</p>
+  </div>
+  <div class="item1">
+    <div class="board">
+
+      <div class="produit">
+        <div class="container-flex">
+          <div>
+            <img src="image/haltere2.png">
+          </div>
+          <div class="block">
+            <ul>
+              <h2>Haltères </h2>
+              <p>Poid:25kg</p>
+              <p>Quantité: 1</p>
+              <div class="prixremove">
+                <div class="prix">
+                  <h2>40 €</h2>
+                </div>
+                <div class="remove">
+                  <a href="#">Supprimer</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <hr>
+        </div>
+        <div class="container-flex">
+          <img src="image/haltere3.png">
+          <div class="block">
+
+            <ul>
+              <h2>Haltères</h2>
+              <p>Poid:50kg</p>
+              <p>Quantité: 1</p>
+              <div class="prixremove">
+                <div class="prix">
+                  <h2>60 €</h2>
+                </div>
+                <div class="remove">
+                  <a href="#">Supprimer</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="board2">
+      <div class="resum">
+        <h1>Résumé de commande</h1>
+        <input id="codepromo" type="text" class="" placeholder="Code Promotionnel">
+        <div class="total">
+          <div>
+            <p>Total</p>
+          </div>
+          <div>
+            <p>100 €</p>
+          </div>
+        </div>
+        <div class="reduc">
+          <div>
+            <p>Réductions</p>
+          </div>
+          <div class="coloreduc">
+            <p>Calcul à la prochaine étape</p>
+          </div>
+        </div>
+        <p>
+          <HR noshade>
+        </p>
+        <div class="total">
+          <div>
+            <p>Total</p>
+          </div>
+          <div>
+            <p>100 €</p>
+          </div>
+        </div>
+        <div>
+          <input class="bouton" type="button" value="Continuer votre paiement">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="board3">
+    <div class="infos">
+      <h2>Informations commande</h2>
+
+    </div>
+    <div class="hiddeninfo">
+      <div class="politique">
+        <hr>
+        <div class="hidden">
+          <h3>Politique de Retours</h3>
+          <img src="image/moins.png" alt="image du moins afin de caché le texte visible">
+        </div>
+        <p>Tous les articles peuvent être retournés les 2 premières semaine après la livraison sauf les produits
+          alimentaires.</p>
+        <div>
+          <hr>
+        </div>
+      </div>
+      <div class="Optionachat">
+        <h3>Options d'achat</h3>
+        <img src="image/plus.png" alt="image du plus afin de voir le texte caché">
+      </div>
+      <div>
+        <hr>
+      </div>
+      <div class="Optionachat">
+        <h3>Options d'achat</h3>
+        <img src="image/plus.png" alt="image du plus afin de voir le texte caché">
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+        
+      
+    <div class="footer-content">
+
+        <div class="sign_footer">
+            <h1 class="">Inscrivez-vous à notre newsletter</h1>
+            <p>Soyez le premier informé de nos offres spéciales, des lancements de nouveaux produits et des événements</p>
+            <div class="">
+              <div class="champ">
+              <input id="newsletter1" type="text" class="" placeholder="Email address">
+              <button class="padding-right bold" type="button">S'inscrire</button>
+              </div>
+            </div>
+          </div>
+      <div class="footer-content-section">
+      <div class="footer-section">
+        <h4 class="">Boutique</h4>
+        <ul class="footer-link">
+          <li class=""><a href="#" class="">Poids</a></li>
+          <li class=""><a href="#" class="">Équipements</a></li>
+          <li class=""><a href="#" class="">Appareils de fitness</a></li>
+          <li class=""><a href="#" class="">Chaussure</a></li>
+          <li class=""><a href="#" class="">Nutrition sportive</a></li>
+          <li class=""><a href="#" class="">Collections spécifiques</a></li>
+          <li class=""><a href="#" class="">Carte cadeau</a></li>
+          <li class=""><a href="#" class="">Fitness Reconditionné</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4 class="">Aide</h4>
+        <ul class="footer-link">
+          <li class=""><a href="#" class="">Centre d'aide</a></li>
+          <li class=""><a href="#" class="">Statut de la commande</a></li>
+          <li class=""><a href="#" class="">Question</a></li>
+          <li class=""><a href="#" class="">Retours et garantie</a></li>
+          <li class=""><a href="#" class="">Nous contacter</a></li>
+        </ul>
+      </div>
+
+      <div class="">
+        <h4 class="">À propos</h4>
+        <ul class="footer-link">
+          <li class=""><a href="#" class="">À propos de nous</a></li>
+          <li class=""><a href="#" class="">Responsabilité</a></li>
+          <li class=""><a href="#" class="">Technologie & Innovation</a></li>
+          <li class=""><a href="#" class="">Découvrez nos histoires</a></li>
+        </ul>
+      </div>
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+<script type="text/javascript" src="style/js/nav_bar.js">
+</script>
+</html>
