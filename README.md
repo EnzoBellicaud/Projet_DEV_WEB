@@ -10,10 +10,10 @@ Nous avons décidé de faire un site de ecommerce de matériel sportif.
 
 Alexandre : Page d'accueil
 <br>
-Auban : Cart
+Auban : Page Panier
 <br>
-Enzo : Shop page
+Enzo : Page d'achat
 <br>
-Titouan : Product page
+Titouan : Page Produit
 <br>
 Zekeriya : Footer + navbar
