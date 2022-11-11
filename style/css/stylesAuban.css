@@ -1,6 +1,12 @@
 @media screen and (min-width:1230px) {
 button {
     background-color: aliceblue;
+
+body {
+  margin:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
     
   }
 
@@ -137,6 +143,12 @@ img{
     background-color: aliceblue;
     
   }
+    
+  body {
+  margin:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
   .titre{
     display: flex;
@@ -269,6 +281,12 @@ img{
     background-color: aliceblue;
     
   }
+    
+  body {
+  margin:0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
   .titre{
     display: flex;
