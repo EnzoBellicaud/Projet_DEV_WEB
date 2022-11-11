@@ -1,6 +1,7 @@
 @media screen and (min-width:1230px) {
 button {
     background-color: aliceblue;
+}
 
 body {
   margin:0px;
@@ -8,12 +9,12 @@ body {
 }
 
     
-  }
 
   .titre{
     display: flex;
     flex-direction: column;
     justify-content: right;
+    padding-left: 20px;
   }
 
   .titre p{
@@ -137,8 +138,6 @@ img{
   color: grey;
 }
 
-
-  
 }
 
 @media screen and (min-width:768px) and (max-width:1230px) {
@@ -157,6 +156,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: right;
+    padding-left: 20px;
   }
 
   .titre p{
@@ -299,6 +299,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: right;
+    padding-left: 10px;
   }
 
   .titre p{
