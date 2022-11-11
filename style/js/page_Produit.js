@@ -58,7 +58,7 @@ function img1() {
         case 1 :
             i = 2;
             document.getElementById("imgsrc").setAttribute("src","image/haltere1.jpg");
-            document.getElementById("imgsrc").setAttribute("class","imageProductlargeur");
+            document.getElementById("imgsrc").setAttribute("class","imageProductLargeur");
             break;
         case 2 :
             i = 3;
@@ -79,5 +79,3 @@ function img1() {
 
 
 
-/*Incrementation(-1);
-Incrementation(1);*/
